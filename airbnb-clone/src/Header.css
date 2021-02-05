@@ -40,5 +40,18 @@
     width: 15vw;
     margin-right: 50px;
 
+
 }
+
+.header_right_2{
+    display: flex;
+    align-items: center;
+   /* justify-content: space-between;*/
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    padding: 2px 7px 2px 7px;
+
+}
+
+
 
