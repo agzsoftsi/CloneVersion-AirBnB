@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './Search.css';
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
-import { DateRangePicker} from "react-date-range";
+import { DateRangePicker } from "react-date-range";
 import { Button } from "@material-ui/core";
 import PeopleIcon from "@material-ui/icons/People";
 import { useHistory } from "react-router-dom";
@@ -19,7 +19,7 @@ function Search() {
         key: "selection",
       };
 
-      function handleSelect(ranges) {
+    function handleSelect(ranges) {
         setStartDate(ranges.selection.startDate);
         setEndDate(ranges.selection.endDate);
     }
@@ -34,6 +34,6 @@ function Search() {
             <Button onClick={() => history.push('/search')}>Search Airbnb</Button>
         </div>
     )
-};
+}
 
 export default Search
