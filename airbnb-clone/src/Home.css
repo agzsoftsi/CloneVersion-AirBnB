@@ -1,0 +1,10 @@
+.home__section {
+    display: flex;
+    padding: 30px;
+  }
+
+  .home > h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

@@ -24,6 +24,7 @@
     height: 30px;
     border: 1px solid lightgray;
     border-radius: 999px;
+    margin-left: 10%;
 }
 
 .header_center > input{
@@ -37,10 +38,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 15vw;
+    width: 20vw;
     margin-right: 50px;
 
 
+}
+
+.header_right > p{
+    font-weight: 500;
 }
 
 .header_right_2{
@@ -51,6 +56,43 @@
     border-radius: 999px;
     padding: 2px 7px 2px 7px;
 
+}
+
+@media screen and (max-width: 578px){
+    .header_right{
+        display: none;
+    }
+    
+    .header_right_2{
+        display: none;
+    
+    }
+
+    .header_center{
+        margin-right: 50px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 445px){
+    .header_right{
+        display: none;
+    }
+    
+    .header_right_2{
+        display: none;
+    
+    }
+
+    .header_center{
+        margin: 10px;
+        
+        
+    }
+
+    .header_icon{
+        display: none;
+    }
 }
 
 
