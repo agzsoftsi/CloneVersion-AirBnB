@@ -4,6 +4,44 @@ import './Footer.css'
 function Footer() {
     return (
         <div className='footer'>
+            <div className="info_footer">
+                <div className="about">
+                    <h5>ABOUT</h5>
+                    <ul>
+                    <li>How Airbnb works</li>
+                    <li>Newsroom</li>
+                    <li>Investors</li>
+                    <li>Airbnb Plus</li>
+                    </ul>
+                </div>
+                <div className="about">
+                    <h5>COMMUNITY</h5>
+                    <ul>
+                    <li>Diversity & Belonging</li>
+                    <li>Against Discrimination</li>
+                    <li>Accessibility</li>
+                    <li>Airbnb Associates</li>
+                    </ul>
+                </div>
+                <div className="about">
+                    <h5>HOST</h5>
+                    <ul>
+                    <li>Host your home</li>
+                    <li>Host an Online Experience</li>
+                    <li>Host an Experience</li>
+                    <li>Community Center</li>
+                    </ul>
+                </div>
+                <div className="about">
+                    <h5>SUPPORT</h5>
+                    <ul>
+                    <li>Help Center</li>
+                    <li>Cancellation options</li>
+                    <li>Neighborhood Support</li>
+                    <li>Trust & Safety</li>
+                    </ul>
+                </div>
+            </div>
             <p>© 2020 Airbnb clone! No rights reserved - this is a demo!</p>
             <p>Privacy · Terms · Sitemap · Company Details</p>
         </div>

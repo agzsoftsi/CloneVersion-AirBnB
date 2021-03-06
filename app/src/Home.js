@@ -3,6 +3,9 @@ import './Home.css';
 import Banner from './Banner'
 import Card from './Card'
 import Near from './Near'
+import Become from './Become'
+
+
 
 // ES7 snippets to do 'rfce'
 
@@ -79,6 +82,35 @@ function Home() {
                 title="Pets allowed"
                 description="Now your pets can feel of amazing places."
             />
+            </div>
+            <div className='home__section'>
+            <Become
+                src="https://a0.muscache.com/im/pictures/eff28e1d-51c4-49ff-8266-68d6929ea1ec.jpg?im_w=1680"
+                title="Your world is worth sharing"
+                description="Turn your extra space into your next opportunity."
+            />
+            <button className="section-button">Become a Host</button>
+            </div>
+
+            <h2 className='title-section'>Experience the world</h2>
+            <h3 className='subtitle-section'>Unique activities with local experts—in person or online.</h3>
+            <div className='home__section'>
+            <Card
+                src="https://a0.muscache.com/im/pictures/4d353c80-e73a-4b04-9e15-ec3d8381b106.jpg?im_w=480"
+                title="Online Experiences"
+                description="Travel the world without leaving home."
+            />
+            <Card
+                src="https://a0.muscache.com/im/pictures/e81fce5f-2f51-4342-938e-5bc18ae237f4.jpg?im_w=480"
+                title="Experiences"
+                description="Things to do eherever you are."
+            />
+            <Card
+                src="https://a0.muscache.com/im/pictures/b9adfc39-6e2a-4e5f-b6f3-681b306fae5c.jpg?im_w=480"
+                title="Adventures"
+                description="Multi-day trips with meals and stays."
+            />
+            
             </div>
             <div className='home__section'>
             <Card

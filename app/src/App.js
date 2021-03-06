@@ -23,7 +23,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-        
+        {/*<h1 className='title-section'>Inspiration for future getaways</h1>*/}
         <Footer />
       </ Router>
     </div>
