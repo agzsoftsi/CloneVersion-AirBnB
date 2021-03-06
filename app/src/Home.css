@@ -8,3 +8,14 @@
     margin-bottom: 20px;
     margin-left: 20px;
 }
+
+.home .title-section{
+margin: 20px 20px 0px 43px;
+font-size: 36px;
+}
+
+.home .home__section__place{
+  display: flex;
+  padding: 5px 40px;
+  justify-content: center;
+}

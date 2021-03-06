@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import Banner from './Banner'
 import Card from './Card'
+import Near from './Near'
 
 // ES7 snippets to do 'rfce'
 
@@ -9,7 +10,53 @@ function Home() {
     return (
         <div className='home'>
             <Banner />
-
+            <h2 className='title-section'>Explore nearby</h2>
+            <div className='home__section__place'>
+            
+            <Near
+                src="https://a0.muscache.com/im/pictures/20356d40-a45f-4680-a9d0-5bb0a3836e4d.jpg?im_q=medq&im_w=240"
+                place="Cali"
+                time="2.5 hour drive."
+            />
+             <Near
+                 src="https://a0.muscache.com/im/pictures/a7fe39da-3e57-44df-a744-9a73e482802d.jpg?im_q=medq&im_w=240"
+                 place="Salento"
+                 time="3 hour drive."
+            />
+             <Near
+                 src="https://a0.muscache.com/im/pictures/5c83ea68-2d92-4413-84ec-dcfe06761063.jpg?im_q=medq&im_w=240"
+                 place="Pereira"
+                 time="3 hour drive."
+            />
+             <Near
+                src="https://a0.muscache.com/im/pictures/676c0a60-2a5a-4598-aeeb-10a81aa5232f.jpg?im_q=medq&im_w=240"
+                place="Guatapé"
+                time="7.5 hour drive."
+            />
+            </div>
+            <div className='home__section__place'>
+             <Near
+                src="https://a0.muscache.com/im/pictures/b948e0e0-c78f-4895-b433-c90401019981.jpg?im_q=medq&im_w=240"
+                place="Popayán"
+                time="2.5 hour drive."
+            />
+             <Near
+                 src="https://a0.muscache.com/im/pictures/087a8dff-a609-4084-86db-f45051c6f23a.jpg?im_q=medq&im_w=240"
+                 place="Medellín"
+                 time="7 hour drive."
+            />
+             <Near
+                 src="https://a0.muscache.com/im/pictures/08b33515-49eb-4b9b-8e60-f962fb7e700b.jpg?im_q=medq&im_w=240"
+                 place="Melgar"
+                 time="6 hour drive."
+            />
+              <Near
+                 src="https://a0.muscache.com/im/pictures/8d12e283-00e1-4365-9b6d-e578f75aab23.jpg?im_q=medq&im_w=240"
+                 place="Ipiales"
+                 time="5 hour drive."
+            />
+            
+            </div>
             <div className='home__section'>
             <Card
                 src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
