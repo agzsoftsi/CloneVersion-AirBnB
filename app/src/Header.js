@@ -15,7 +15,7 @@ function Header() {
             
             <div className="header_center">
                 <input type="text" placeholder="Start your search"/>
-                <IconButton color='secondary'>
+                <IconButton style={{background:"#FF5B60", color:'white'}}>
                     <SearchIcon />
                 </IconButton>
             </div>
