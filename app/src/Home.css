@@ -32,11 +32,17 @@ font-size: 36px;
   margin-top: 30%;
   margin-left: 100px;
   font-size: 18px;
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
   border: 2px #FF5B60 solid;
   border-radius: 10px;
   width: 200px;
   height: 50px;
   cursor: pointer;
   outline: none;
+}
+.home .section-button:hover{
+
+  background-color: rgb(189, 186, 186);
+
+  
 }
