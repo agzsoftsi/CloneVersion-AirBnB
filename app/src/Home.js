@@ -57,21 +57,27 @@ function Home() {
             />
             
             </div>
+            <h2 className='title-section'>Live anywhere</h2>
             <div className='home__section'>
             <Card
-                src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
+                src="https://a0.muscache.com/im/pictures/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg?im_w=480"
                 title="Online Experiences"
                 description="Unique activities we can do together, led by a world of hosts."
             />
             <Card
-                src="https://a0.muscache.com/im/pictures/15159c9c-9cf1-400e-b809-4e13f286fa38.jpg?im_w=720"
+                src="https://a0.muscache.com/im/pictures/36f53e61-db8d-403c-9122-5b761c0e4264.jpg?im_w=480"
                 title="Unique stays"
                 description="Spaces that are more than just a place to sleep."
             />
             <Card
-                src="https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720"
-                title="Entire homes"
+                src="https://a0.muscache.com/im/pictures/a596c528-a2e9-4417-9bbe-ceb68b2f6b9c.jpg?im_w=480"
+                title="Cabins and cottages"
                 description="Comfortable private places, with room for friends or family."
+            />
+               <Card
+                src="https://a0.muscache.com/im/pictures/10a638e1-6aff-4313-8033-1275cec83987.jpg?im_w=480"
+                title="Pets allowed"
+                description="Now your pets can feel of amazing places."
             />
             </div>
             <div className='home__section'>
