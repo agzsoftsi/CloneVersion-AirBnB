@@ -32,6 +32,7 @@
 .banner__search {
     display: flex;
     flex-direction: column;
+    z-index: 100;
 }
 
 .banner__searchButton {
@@ -47,6 +48,7 @@
     text-transform: inherit;
     margin-top: 20px;
     font-weight: 600;
+    z-index: 0;
 }
 
 .banner__info > button:hover {

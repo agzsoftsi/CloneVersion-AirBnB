@@ -29,20 +29,33 @@ font-size: 36px;
 
 .home .section-button{
   position: absolute;
-  margin-top: 30%;
-  margin-left: 100px;
-  font-size: 18px;
+  margin-top: 25%;
+  margin-left: 10%;
+  font-size: 25px;
   background-color: rgb(255, 255, 255);
   border: 2px #FF5B60 solid;
-  border-radius: 10px;
-  width: 200px;
-  height: 50px;
+  border-radius: 20px;
   cursor: pointer;
   outline: none;
+  padding: 20px;
 }
 .home .section-button:hover{
 
   background-color: rgb(189, 186, 186);
 
   
+}
+
+@media screen and (max-width: 858px) {
+  .home .become, .home .home__section__place, .home .place, .home .last {
+    display: none;
+    
+  }
+}
+
+@media screen and (max-width: 701px) {
+  .home .home__section {
+    flex-direction: column;
+    
+  }
 }

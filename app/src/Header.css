@@ -58,7 +58,7 @@
 
 }
 
-@media screen and (max-width: 578px){
+@media screen and (max-width: 701px){
     .header_right{
         display: none;
     }
@@ -85,8 +85,9 @@
     }
 
     .header_center{
-        margin: 10px;
         
+        justify-content: center;
+        margin-left: auto;
         
     }
 

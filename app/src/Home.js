@@ -13,7 +13,7 @@ function Home() {
     return (
         <div className='home'>
             <Banner />
-            <h2 className='title-section'>Explore nearby</h2>
+            <h2 className='title-section place'>Explore nearby</h2>
             <div className='home__section__place'>
             
             <Near
@@ -83,7 +83,7 @@ function Home() {
                 description="Now your pets can feel of amazing places."
             />
             </div>
-            <div className='home__section'>
+            <div className='home__section become'>
             <Become
                 src="https://a0.muscache.com/im/pictures/eff28e1d-51c4-49ff-8266-68d6929ea1ec.jpg?im_w=1680"
                 title="Your world is worth sharing"
@@ -112,7 +112,8 @@ function Home() {
             />
             
             </div>
-            <div className='home__section'>
+            <h2 className='title-section last'>Last seen ...</h2>
+            <div className='home__section last'>
             <Card
                 src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
                 title="3 Bedroom Flat in Bournemouth"

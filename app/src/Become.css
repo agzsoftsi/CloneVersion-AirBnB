@@ -19,6 +19,7 @@
 
 .Become__info {
     margin-top: -30%;
+    margin-left: 5%;
     border-radius: 10px;
     padding: 20px;
     padding-top: 20px;
@@ -27,12 +28,12 @@
   }
 
   .Become__info > h2 {
-    font-size: 30px;
+    font-size: 38px;
     font-weight: 600;
   }
   
   .Become__info > h4 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
     margin-top: 8px;
     margin-bottom: 8px;

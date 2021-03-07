@@ -6,8 +6,9 @@ function Footer() {
         <div className='footer'>
             <div className="info_footer">
                 <div className="about">
-                    <h5>ABOUT</h5>
+                    
                     <ul>
+                    <li><h5>ABOUT</h5></li>
                     <li>How Airbnb works</li>
                     <li>Newsroom</li>
                     <li>Investors</li>
@@ -15,8 +16,9 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="about">
-                    <h5>COMMUNITY</h5>
+                   
                     <ul>
+                    <li><h5>COMMUNITY</h5></li>
                     <li>Diversity & Belonging</li>
                     <li>Against Discrimination</li>
                     <li>Accessibility</li>
@@ -24,8 +26,9 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="about">
-                    <h5>HOST</h5>
+                    
                     <ul>
+                        <li><h5>HOST</h5></li>
                     <li>Host your home</li>
                     <li>Host an Online Experience</li>
                     <li>Host an Experience</li>
@@ -33,8 +36,9 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="about">
-                    <h5>SUPPORT</h5>
+                    
                     <ul>
+                    <li><h5>SUPPORT</h5></li>
                     <li>Help Center</li>
                     <li>Cancellation options</li>
                     <li>Neighborhood Support</li>
